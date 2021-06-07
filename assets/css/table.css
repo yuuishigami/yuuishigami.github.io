@@ -1,0 +1,32 @@
+.table{
+  padding-top:15px;
+}
+.table_col {
+  text-align:center;
+  font-size:17px;
+  width:90%;
+  background-color:rgb(246,246,246);
+  text-align:left;   
+  border-collapse:collapse;
+  color:#3E4347;
+  margin:auto;
+  }
+.table_col th:first-child, .table_col td:first-child {
+  color:#8b8e91;
+  border-left:none;
+}
+.table_col th {
+  font-weight:normal;
+  text-align:center;
+  color:#8b8e91;
+  border-bottom:2px solid #dd3333;
+  border-right:20px solid rgb(246,246,246);
+  border-left:20px solid rgb(246,246,246);
+  padding:8px 10px;
+}
+.table_col td {
+  border-right:20px solid rgb(246,246,246);
+  border-left:20px solid rgb(246,246,246);
+  padding:12px 10px;
+  color:#8b8e91;
+}
