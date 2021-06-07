@@ -1,0 +1,2 @@
+# yuuishigami.github.io
+.
