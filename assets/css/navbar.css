@@ -18,6 +18,7 @@
     width:250px;
 }
 .navbar li{
+    font-size: 19px;
     border-bottom:1px solid #eaeaea;
     padding-bottom:15px;
     margin-bottom:15px;
@@ -35,16 +36,17 @@
 }
 .navbar li:before{
     font-family:FontAwesome;
-    font-size:20px;
+    font-size:19px;
+    padding: auto;
     vertical-align:bottom;
     color:#dd3333; 
-    margin-right:14px;
+    margin-right:25px;
 }
 .navbar li:nth-child(1):before{content:"\f015";}
 .navbar li:nth-child(2):before{content:"\f02d";}
 .navbar li:nth-child(3):before{content:"\f0ce";}
 .navbar li:nth-child(4):before{content:"\f03e";}
-.navbar li:nth-child(5):before{padding-left:3px;content:"\f007";padding-right:4px;}
+.navbar li:nth-child(5):before{content:"\f007";}
 .navbar a:hover{
       color:#dd3333;
       transition:0.4s;
